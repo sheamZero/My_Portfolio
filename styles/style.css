@@ -8,9 +8,12 @@
     --white: #FFFFFF;
     --light-gray: #E8ECEE;
 
-    --btnShadow: #d9574640;
+    --btnShadow:  rgba(29,84,109,0.35);
 
     --bgNavFooter: #fefcfbd9;
+
+
+
 }
 
 

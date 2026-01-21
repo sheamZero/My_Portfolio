@@ -14,7 +14,7 @@ header {
     justify-content: space-between;
     /* keeps resume button right */
     align-items: center;
-    padding: 0.75rem 1rem;
+    padding: 1rem;
 }
 
 @media (min-width: 768px) {
@@ -30,6 +30,7 @@ header {
         padding-right: 4rem;
     }
 }
+
 @media (min-width: 1200px) {
     .navContainer {
         padding-left: 6rem;
@@ -46,7 +47,7 @@ header {
 
 /* Logo */
 .logo {
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     font-weight: 700;
     color: var(--primary);
     text-decoration: none;
@@ -78,7 +79,7 @@ header {
     text-decoration: none;
     color: var(--title);
     font-weight: 500;
-    font-size: 0.95rem;
+    font-size: 1rem;
     position: relative;
     transition: color 0.2s ease;
 }
@@ -104,13 +105,23 @@ header {
 
 /* Resume button (always on right) */
 .resumeBtn {
-    padding: 0.5rem 1.2rem;
+    padding: 0.75rem 1.5rem;
     background-color: var(--primary);
     color: var(--white);
     border: none;
     border-radius: 5rem;
     cursor: pointer;
-    font-size: 0.9rem;
+    font-size: 1rem;
+    font-weight: 500;
+    /* box-shadow: 0 0.25rem 1.25rem var(--btnShadow); */
+
+    transition: all 0.2s ease;
+}
+
+.resumeBtn:hover {
+    transform: scale(1.05);
+    /* box-shadow: 0 0.5rem 1.5rem var(--btnShadow); */
+
 }
 
 /* Sidebar for mobile */
@@ -168,7 +179,9 @@ header {
         display: none;
         /* hide desktop menu links */
     }
-
+.logo{
+    font-size: 1.25rem;
+}
     /* Keep resume button visible on right */
     .resumeBtn {
         display: inline-block;

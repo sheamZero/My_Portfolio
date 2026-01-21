@@ -17,21 +17,21 @@
     <!-- custom styles -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/navbar.css">
+    <link rel="stylesheet" href="styles/hero.css">
 
 
 </head>
 
 <body>
+    <!-- ===================== Navbar ==================== -->
     <header>
         <div class="navContainer">
-            <!-- Left: menu icon + logo -->
             <div class="leftGroup">
                 <button id="menuBtn" class="menuIcon">
                     <i class="fa-solid fa-bars"></i>
                 </button>
                 <a href="#hero" class="logo">SHEAM</a>
             </div>
-
             <!-- Desktop menu -->
             <div class="menuContainer">
                 <nav>
@@ -43,14 +43,11 @@
                     <a href="#contact">Contact</a>
                 </nav>
             </div>
-
-            <!-- Resume button always on right -->
             <button class="resumeBtn">Resume</button>
         </div>
     </header>
     <!-- Sidebar for mobile -->
     <aside id="sidebar">
-        <!-- Close button inside sidebar -->
         <button id="closeSidebar" class="closeSidebarBtn">
             <i class="fa-solid fa-xmark"></i>
         </button>
@@ -64,6 +61,43 @@
         </nav>
     </aside>
 
+    <main>
+        <!-- hero Section -->
+        <section id="hero">
+            <div class="heroContainer">
+                <div class="imageContainer">
+                    <img src="assests/profile.jpeg" alt="Sheam - MERN Developer" />
+                </div>
+                <div class="hero-text">
+                    <h1>Hi, I'm <span>Sheam</span></h1>
+                    <h2>MERN Stack Developer</h2>
+                    <p>
+                        I build responsive, user-friendly web applications with clean code and modern design.
+                        Passionate about turning ideas into functional digital experiences.
+                    </p>
+                    <a href="assets/sheam-cv.pdf" download class="commonBtn">Download CV</a>
+
+                    <!-- Social/Contact Icons -->
+                    <div class="hero-icons">
+                        <a href="https://github.com/yourusername" target="_blank" aria-label="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://linkedin.com/in/yourusername" target="_blank" aria-label="LinkedIn">
+                            <i class="fab fa-linkedin-in"></i>
+                        </a>
+                        <a href="mailto:youremail@example.com" aria-label="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+
+    </footer>
 
 
 
