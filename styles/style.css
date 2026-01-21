@@ -1,9 +1,27 @@
+/* css variables */
+:root {
+    --primary: #1D546D;
+    --background: #F3F4F4;
+    --title: #061E29;
+    /* --paragraph:; */
+    --secondary: #5F9598;
+    --white: #FFFFFF;
+    --light-gray: #E8ECEE;
+
+    --btnShadow: #d9574640;
+
+    --bgNavFooter: #fefcfbd9;
+}
 
 
 
-*{
+* {
     margin: 0;
     padding: 0;
-    box-sizing: border-box; 
+    box-sizing: border-box;
     font-family: "Roboto", sans-serif;
+}
+
+body {
+    background-color: var(--background);
 }
