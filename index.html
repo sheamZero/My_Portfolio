@@ -12,18 +12,24 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
         rel="stylesheet">
 
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" /> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+
+
 
     <!-- custom styles -->
     <link rel="stylesheet" href="styles/style.css">
     <link rel="stylesheet" href="styles/navbar.css">
     <link rel="stylesheet" href="styles/hero.css">
+    <link rel="stylesheet" href="styles/about.css">
+    <link rel="stylesheet" href="styles/skills.css">
 
 
 </head>
 
 <body>
-    <!-- ===================== Navbar ==================== -->
+    <!------------------- Navigation bar ------------------>
     <header>
         <div class="navContainer">
             <div class="leftGroup">
@@ -62,14 +68,16 @@
     </aside>
 
     <main>
-        <!-- hero Section -->
+        <!------------------- hero Section------------------>
         <section id="hero">
             <div class="heroContainer">
                 <div class="imageContainer">
                     <img src="assests/profile.jpeg" alt="Sheam - MERN Developer" />
                 </div>
                 <div class="hero-text">
-                    <h1>Hi, I'm <span>Sheam</span></h1>
+                    <h1>Hi, I'm
+                        <span>Sheam</span>
+                    </h1>
                     <h2>MERN Stack Developer</h2>
                     <p>
                         I build responsive, user-friendly web applications with clean code and modern design.
@@ -93,6 +101,368 @@
             </div>
         </section>
 
+        <section id="about">
+            <div class="aboutContainer">
+
+                <!-- Signature Heading -->
+                <div class="aboutHeading">
+                    <span class="headingLine"></span>
+                    <h2>About <em>Me</em></h2>
+                    <span class="headingLine"></span>
+                </div>
+
+                <div class="aboutGrid">
+
+                    <!-- Left: Visual Card -->
+                    <div class="aboutVisual">
+                        <div class="aboutCard">
+                            <h3>Who I Am</h3>
+                            <p>
+                                A detail-oriented MERN Stack Developer focused on building
+                                fast, accessible, and scalable web experiences. I enjoy
+                                solving real-world problems with clean architecture and
+                                thoughtful UI design.
+                            </p>
+
+                            <div class="aboutStats">
+                                <div class="statBadge">
+                                    <i class="fa-solid fa-briefcase"></i>
+                                    <span>1+</span>
+                                    <small>Years</small>
+                                </div>
+                                <div class="statBadge">
+                                    <i class="fa-solid fa-diagram-project"></i>
+                                    <span>15+</span>
+                                    <small>Projects</small>
+                                </div>
+                                <div class="statBadge">
+                                    <i class="fa-solid fa-bolt"></i>
+                                    <span>100%</span>
+                                    <small>Ownership</small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Right: Content -->
+                    <div class="aboutContent">
+
+                        <p>
+                            I specialize in building full-stack web applications using
+                            MongoDB, Express, React, and Node.js. My work emphasizes
+                            performance, maintainability, and intuitive user experience.
+                        </p>
+
+                        <p class="secondaryText">
+                            I enjoy turning complex ideas into simple, elegant solutions.
+                            Whether it's designing responsive UIs or building secure APIs,
+                            I take ownership of every layer of the stack.
+                        </p>
+
+                        <!-- Developer Philosophy -->
+                        <div class="aboutPhilosophy">
+                            <i class="fa-solid fa-code"></i>
+                            <p>
+                                I believe great software lives at the intersection of performance,
+                                clarity, and human-centered design. My goal is not just to ship features,
+                                but to craft experiences that feel intuitive, fast, and dependable.
+                            </p>
+                        </div>
+
+                        <a href="#projects" class="commonBtn">
+                            View My Work
+                        </a>
+
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+        <section id="skills">
+            <div class="skillsContainer" id="pageLayoutContainer">
+
+                <div class="skillsHeading">
+                    <span class="headingLine"></span>
+                    <h2>My <em>Skills</em></h2>
+                    <span class="headingLine"></span>
+                </div>
+
+                <div class="skillsCards">
+
+                    <!-- Frontend -->
+                    <div class="skillCard">
+                        <h3>Frontend</h3>
+                        <div class="skillList">
+
+                            <div class="skillRow" data-level="90" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-brands fa-react"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop">
+                                        <strong>React</strong>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="85" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>JavaScript (ES6+)</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="95" data-color="red">
+                                <div class="skillIcon danger">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>HTML5</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="95" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>CSS3</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="90" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Responsive Design</strong><span>90%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="85" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-wind"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Tailwind CSS</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="80" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-n"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Next.js</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="75" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Shadcn/ui</strong><span>75%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Backend -->
+                    <div class="skillCard">
+                        <h3>Backend</h3>
+                        <div class="skillList">
+
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-brands fa-node-js"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Node.js</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="80" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-server"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Express.js</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-plug"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>RESTful APIs</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="75" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-solid fa-key"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>JWT / Auth</strong><span>75%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="70" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>MySQL</strong><span>70%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="70" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-firefox-browser"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Firebase</strong><span>70%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Database & Tools -->
+                    <div class="skillCard">
+                        <h3>Database & Tools</h3>
+                        <div class="skillList">
+
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-leaf"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>MongoDB</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="90" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Git & GitHub</strong><span>90%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="95" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>VS Code</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="80" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-figma"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Figma</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="85" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-vial"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Postman</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+
+
+
+
+        <section id="education">
+
+        </section>
+        <section id="projects">
+
+        </section>
+        <section id="contact">
+
+        </section>
+
+
     </main>
 
     <footer>
@@ -100,8 +470,8 @@
     </footer>
 
 
-
     <script src="scripts/navbar.js"></script>
+    <script src="scripts/skills.js"></script>
 </body>
 
 </html>
