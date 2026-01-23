@@ -24,6 +24,9 @@
     <link rel="stylesheet" href="styles/hero.css">
     <link rel="stylesheet" href="styles/about.css">
     <link rel="stylesheet" href="styles/skills.css">
+    <link rel="stylesheet" href="styles/education.css">
+    <link rel="stylesheet" href="styles/projects.css">
+    <link rel="stylesheet" href="styles/contact.css">
 
 
 </head>
@@ -179,287 +182,350 @@
             </div>
         </section>
 
-<section id="skills">
-  <!-- Scroll Progress Sidebar -->
-  <div class="skillsProgress">
-    <div class="bar"></div>
-  </div>
+        <section id="skills">
+            <div class="skillsContainer" id="pageLayoutContainer">
 
-  <div class="skillsContainer" id="pageLayoutContainer">
+                <div class="skillsHeading">
+                    <span class="headingLine"></span>
+                    <h2>My <em>Skills</em></h2>
+                    <span class="headingLine"></span>
+                </div>
 
-    <div class="skillsHeading">
-      <span class="headingLine"></span>
-      <h2>My <em>Skills</em></h2>
-      <span class="headingLine"></span>
-    </div>
+                <div class="skillsCards">
 
-    <div class="skillsCards">
+                    <!-- Frontend -->
+                    <div class="skillCard">
+                        <h3>Frontend</h3>
+                        <div class="skillList">
 
-      <!-- Frontend -->
-      <div class="skillCard">
-        <h3>Frontend</h3>
-        <div class="skillList">
+                            <div class="skillRow" data-level="90" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-brands fa-react"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop">
+                                        <strong>React</strong>
+                                        <span>90%</span>
+                                    </div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="90" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-brands fa-react"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop">
-                <strong>React</strong>
-                <span>90%</span>
-              </div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="85" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-js"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>JavaScript (ES6+)</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="85" data-color="yellow">
-            <div class="skillIcon warn">
-              <i class="fa-brands fa-js"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>JavaScript (ES6+)</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="95" data-color="red">
+                                <div class="skillIcon danger">
+                                    <i class="fa-brands fa-html5"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>HTML5</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="95" data-color="red">
-            <div class="skillIcon danger">
-              <i class="fa-brands fa-html5"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>HTML5</strong><span>95%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="95" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-brands fa-css3-alt"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>CSS3</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="95" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-brands fa-css3-alt"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>CSS3</strong><span>95%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="90" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-mobile-screen"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Responsive Design</strong><span>90%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="90" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-solid fa-mobile-screen"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Responsive Design</strong><span>90%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="85" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-wind"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Tailwind CSS</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="85" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-wind"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Tailwind CSS</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="80" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-n"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Next.js</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="80" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-solid fa-n"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Next.js</strong><span>80%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="75" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-layer-group"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Shadcn/ui</strong><span>75%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="75" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-layer-group"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Shadcn/ui</strong><span>75%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                        </div>
+                    </div>
 
-        </div>
-      </div>
+                    <!-- Backend -->
+                    <div class="skillCard">
+                        <h3>Backend</h3>
+                        <div class="skillList">
 
-      <!-- Backend -->
-      <div class="skillCard">
-        <h3>Backend</h3>
-        <div class="skillList">
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-brands fa-node-js"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Node.js</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="85" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-brands fa-node-js"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Node.js</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="80" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-server"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Express.js</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="80" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-server"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Express.js</strong><span>80%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-plug"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>RESTful APIs</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="85" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-solid fa-plug"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>RESTful APIs</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="75" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-solid fa-key"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>JWT / Auth</strong><span>75%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="75" data-color="yellow">
-            <div class="skillIcon warn">
-              <i class="fa-solid fa-key"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>JWT / Auth</strong><span>75%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
+                            <div class="skillRow" data-level="70" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-database"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>MySQL</strong><span>70%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
 
-          <div class="skillRow" data-level="70" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-database"></i>
+                            <div class="skillRow" data-level="70" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-firefox-browser"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Firebase</strong><span>70%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <!-- Database & Tools -->
+                    <div class="skillCard">
+                        <h3>Database & Tools</h3>
+                        <div class="skillList">
+
+                            <div class="skillRow" data-level="85" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-solid fa-leaf"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>MongoDB</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="90" data-color="green">
+                                <div class="skillIcon success">
+                                    <i class="fa-brands fa-github"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Git & GitHub</strong><span>90%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="95" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-code"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>VS Code</strong><span>95%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="80" data-color="yellow">
+                                <div class="skillIcon warn">
+                                    <i class="fa-brands fa-figma"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Figma</strong><span>80%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="skillRow" data-level="85" data-color="blue">
+                                <div class="skillIcon info">
+                                    <i class="fa-solid fa-vial"></i>
+                                </div>
+                                <div class="skillMeta">
+                                    <div class="skillTop"><strong>Postman</strong><span>85%</span></div>
+                                    <div class="skillBar">
+                                        <div class="fill"></div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
             </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>MySQL</strong><span>70%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skillRow" data-level="70" data-color="yellow">
-            <div class="skillIcon warn">
-              <i class="fa-brands fa-firefox-browser"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Firebase</strong><span>70%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-      <!-- Database & Tools -->
-      <div class="skillCard">
-        <h3>Database & Tools</h3>
-        <div class="skillList">
-
-          <div class="skillRow" data-level="85" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-solid fa-leaf"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>MongoDB</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skillRow" data-level="90" data-color="green">
-            <div class="skillIcon success">
-              <i class="fa-brands fa-github"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Git & GitHub</strong><span>90%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skillRow" data-level="95" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-code"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>VS Code</strong><span>95%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skillRow" data-level="80" data-color="yellow">
-            <div class="skillIcon warn">
-              <i class="fa-brands fa-figma"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Figma</strong><span>80%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-          <div class="skillRow" data-level="85" data-color="blue">
-            <div class="skillIcon info">
-              <i class="fa-solid fa-vial"></i>
-            </div>
-            <div class="skillMeta">
-              <div class="skillTop"><strong>Postman</strong><span>85%</span></div>
-              <div class="skillBar">
-                <div class="fill"></div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </div>
-
-    </div>
-  </div>
-</section>
-
-
-
-
-        <section id="education">
-
         </section>
+
+        <!------------------- education Section------------------>
+        <section id="education">
+            <div id="pageLayoutContainer">
+
+                <div class="educationHeading">
+                    <span class="headingLine"></span>
+                    <h2>My <em>Education</em></h2>
+                    <span class="headingLine"></span>
+                </div>
+
+                <div class="educationTimeline">
+
+                    <div class="eduItem">
+                        <div class="eduDot"></div>
+                        <div class="eduCard">
+                            <div class="eduTop">
+                                <h3>Bachelor of Science in Computer Science & Engineering</h3>
+                                <span class="eduYear">2021 - 2025</span>
+                            </div>
+                            <p class="eduInstitute">Varendra University, Rajshahi</p>
+                            <p class="eduDesc">
+                                Specialized in software engineering and full-stack development.
+                                Completed major coursework in data structures, algorithms, network & security, web
+                                technologies, and database systems.
+                            </p>
+                            <ul class="eduHighlights">
+                                <li>CGPA: -- / 4.00</li>
+                                <li>Final Year Thesis: YOLO-Based Object Detection for Traffic Monitoring</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="eduItem">
+                        <div class="eduDot"></div>
+                        <div class="eduCard">
+                            <div class="eduTop">
+                                <h3>Higher Secondary Certificate (Science)</h3>
+                                <span class="eduYear">2018 - 2020</span>
+                            </div>
+                            <p class="eduInstitute">Qadirabad Cantonment Public Sapper College, Natore</p>
+                            <p class="eduDesc">
+                                Focused on mathematics, physics, and computer fundamentals.
+                                Built a strong analytical and problem-solving foundation.
+                            </p>
+                            <ul class="eduHighlights">
+                                <li>GPA: 5.00 / 5.00</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <!-- <div class="eduItem">
+                        <div class="eduDot"></div>
+                        <div class="eduCard">
+                            <div class="eduTop">
+                                <h3>Secondary School Certificate (Science)</h3>
+                                <span class="eduYear">2016 - 2018</span>
+                            </div>
+                            <p class="eduInstitute">Saint Louis High School, Natore</p>
+                            <p class="eduDesc">
+                                Developed early interest in programming and logical reasoning.
+                                Participated in multiple inter-school science fairs.
+                            </p>
+                            <ul class="eduHighlights">
+                                <li>GPA: 5.00 / 5.00</li>
+                                <li>Science Fair Winner - 2017</li>
+                            </ul>
+                        </div>
+                    </div> -->
+
+                </div>
+
+            </div>
+        </section>
+
         <section id="projects">
 
         </section>
@@ -477,6 +543,7 @@
 
     <script src="scripts/navbar.js"></script>
     <script src="scripts/skills.js"></script>
+    <script src="scripts/education.js"></script>
 </body>
 
 </html>

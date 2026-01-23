@@ -4,7 +4,7 @@
 
 #about {
     min-height: calc(100vh - 80px);
-    margin-top: 76px;
+    padding-top: 76px;
 }
 
 .aboutContainer {

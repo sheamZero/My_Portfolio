@@ -1,9 +1,14 @@
+#skills {
+  min-height: calc(100vh - 80px);
+  padding-top: 76px;
+}
+
 .skillsHeading {
   display: flex;
   align-items: center;
   justify-content: center;
   gap: 1.2rem;
-  margin-bottom: 1.5rem;
+  margin-bottom: 4rem;
 }
 
 .skillsHeading h2 {
@@ -97,12 +102,29 @@
   flex-shrink: 0;
 }
 
-.skillIcon.success { background: var(--secondary); color: #fff; }
-.skillIcon.info { background: var(--primary); color: #fff; }
-.skillIcon.warn { background: #f59e0b; color: #fff; }
-.skillIcon.danger { background: #2563eb; color: #fff; }
+.skillIcon.success {
+  background: var(--secondary);
+  color: #fff;
+}
 
-.skillMeta { flex: 1; }
+.skillIcon.info {
+  background: var(--primary);
+  color: #fff;
+}
+
+.skillIcon.warn {
+  background: #f59e0b;
+  color: #fff;
+}
+
+.skillIcon.danger {
+  background: #2563eb;
+  color: #fff;
+}
+
+.skillMeta {
+  flex: 1;
+}
 
 .skillTop {
   display: flex;
@@ -141,10 +163,21 @@
   transition: width 1.2s ease;
 }
 
-.skillRow[data-color="green"] .fill { background: var(--secondary); }
-.skillRow[data-color="blue"] .fill { background: var(--primary); }
-.skillRow[data-color="yellow"] .fill { background: #f59e0b; }
-.skillRow[data-color="red"] .fill { background: #2563eb; }
+.skillRow[data-color="green"] .fill {
+  background: var(--secondary);
+}
+
+.skillRow[data-color="blue"] .fill {
+  background: var(--primary);
+}
+
+.skillRow[data-color="yellow"] .fill {
+  background: #f59e0b;
+}
+
+.skillRow[data-color="red"] .fill {
+  background: #2563eb;
+}
 
 /* ==============================
    SCROLL SIDEBAR
@@ -172,9 +205,13 @@
 }
 
 @media (max-width: 767px) {
-  .skillsProgress { display: none; }
+  .skillsProgress {
+    display: none;
+  }
 
-  .skillRow { padding: 1rem; }
+  .skillRow {
+    padding: 1rem;
+  }
 
   .skillIcon {
     width: 38px;
