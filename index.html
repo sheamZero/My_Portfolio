@@ -27,6 +27,7 @@
     <link rel="stylesheet" href="styles/education.css">
     <link rel="stylesheet" href="styles/projects.css">
     <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/project.css">
 
 
 </head>
@@ -527,8 +528,101 @@
         </section>
 
         <section id="projects">
+            <div id="pageLayoutContainer">
 
+                <div class="projectsHeading">
+                    <span class="headingLine"></span>
+                    <h2>My <em>Projects</em></h2>
+                    <span class="headingLine"></span>
+                </div>
+
+                <div class="projectList">
+
+                    <!-- Project 1 -->
+                    <article class="projectRow reveal">
+                        <div class="projectMedia">
+                            <img src="assests/about.jpg" alt="MERN E-Commerce Platform">
+                        </div>
+
+                        <div class="projectInfo">
+                            <h3>MERN E-Commerce Platform</h3>
+                            <p>
+                                A production-grade e-commerce system with JWT authentication,
+                                Stripe payments, admin analytics dashboard, and real-time
+                                inventory synchronization.
+                            </p>
+
+                            <ul class="projectTech">
+                                <li>React</li>
+                                <li>Node.js</li>
+                                <li>MongoDB</li>
+                                <li>Stripe</li>
+                            </ul>
+
+                            <a href="projectDetails/project_1.html" class="projectLink">
+                                View Details <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 2 (reversed) -->
+                    <article class="projectRow reverse reveal">
+                        <div class="projectMedia">
+                            <img src="assests/profile.jpeg" alt="Animated Portfolio">
+                        </div>
+
+                        <div class="projectInfo">
+                            <h3>Animated Portfolio Website</h3>
+                            <p>
+                                A modern responsive portfolio featuring scroll-triggered
+                                animations, performance optimization, and accessibility-first
+                                UI architecture.
+                            </p>
+
+                            <ul class="projectTech">
+                                <li>HTML</li>
+                                <li>CSS</li>
+                                <li>JavaScript</li>
+                                <li>GSAP</li>
+                            </ul>
+
+                            <a href="project-portfolio.html" class="projectLink">
+                                View Details <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                    <!-- Project 3 -->
+                    <article class="projectRow reveal">
+                        <div class="projectMedia">
+                            <img src="assets/projects/yolo.jpg" alt="YOLO Traffic Monitoring">
+                        </div>
+
+                        <div class="projectInfo">
+                            <h3>YOLO Traffic Monitoring</h3>
+                            <p>
+                                Real-time object detection system for traffic analysis using
+                                YOLOv8, OpenCV, and a Flask-based inference API.
+                            </p>
+
+                            <ul class="projectTech">
+                                <li>Python</li>
+                                <li>YOLOv8</li>
+                                <li>OpenCV</li>
+                                <li>Flask</li>
+                            </ul>
+
+                            <a href="project-yolo.html" class="projectLink">
+                                View Details <i class="fa-solid fa-arrow-right"></i>
+                            </a>
+                        </div>
+                    </article>
+
+                </div>
+            </div>
         </section>
+
+
         <section id="contact">
 
         </section>
@@ -544,6 +638,7 @@
     <script src="scripts/navbar.js"></script>
     <script src="scripts/skills.js"></script>
     <script src="scripts/education.js"></script>
+    <script src="scripts/project.js"></script>
 </body>
 
 </html>
