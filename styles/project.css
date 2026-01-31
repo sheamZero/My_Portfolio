@@ -74,9 +74,10 @@
 .projectMedia {
     border-radius: 1.6rem;
     overflow: hidden;
-    box-shadow: 0 16px 40px rgba(0, 0, 0, 0.08);
+    box-shadow: 0 16px 40px #00000014;
     aspect-ratio: 16 / 9;
-    background: #eaeef0;
+    background: var(--projectSecondaryBg);
+    /* background: #eaeef0; */
 }
 
 @media (max-width: 1024px) {
@@ -129,7 +130,8 @@ padding: 1rem;
 }
 
 .projectTech li {
-    background: rgba(29, 84, 109, 0.08);
+    list-style: none;
+    background: #1d546d14;
     color: var(--primary);
     padding: 0.4rem 0.9rem;
     border-radius: 0.7rem;

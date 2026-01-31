@@ -9,7 +9,7 @@
   align-items: center;
   gap: 0.4rem;
   margin-bottom: 1rem;
-  padding: 0.6rem 1.2rem;
+  padding: 0.75rem 1.2rem;
   background: var(--primary);
   color: #fff;
   font-weight: 700;
@@ -84,7 +84,7 @@
   display: flex;
   align-items: center;
   gap: 0.4rem;
-  background: rgba(29, 84, 109, 0.08);
+  background: var(--projectSecondaryBg);
   color: var(--primary);
   padding: 0.5rem 1rem;
   border-radius: 0.7rem;
@@ -135,7 +135,7 @@
 .additionalSection {
   margin-top: 2.5rem;
   padding: 1.5rem;
-  background: rgba(29, 84, 109, 0.04);
+  background: var(--projectSecondaryBg);
   border-radius: 1rem;
 }
 

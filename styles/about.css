@@ -1,6 +1,4 @@
-/* ==============================
-   ABOUT SECTION – Layout
-============================== */
+/* about section layout*/
 
 #about {
     min-height: calc(100vh - 80px);
@@ -34,9 +32,7 @@
     }
 }
 
-/* ==============================
-   ABOUT – Signature Heading
-============================== */
+/* about signature heading*/
 
 .aboutHeading {
     display: flex;
@@ -66,9 +62,7 @@
     max-width: 120px;
 }
 
-/* ==============================
-   ABOUT – Grid Layout
-============================== */
+/* about grid layout*/
 
 .aboutGrid {
     display: grid;
@@ -81,17 +75,16 @@
 @media (min-width: 768px) {
     .aboutGrid {
         grid-template-columns: 1fr 1.5fr;
-        gap: 4rem;
+        gap: 2rem;
     }
 }
 
-/* ==============================
-   ABOUT – Visual Card
-============================== */
+/* about visual card*/
 
 .aboutVisual {
     display: flex;
-    justify-content: center;
+    justify-content: start;
+    align-items: center;
 }
 
 .aboutCard {
@@ -135,9 +128,7 @@
     margin-bottom: 2rem;
 }
 
-/* ==============================
-   ABOUT – Stats Badges
-============================== */
+/* about stats badges*/
 
 .aboutStats {
     display: flex;
@@ -174,9 +165,7 @@
     opacity: 0.85;
 }
 
-/* ==============================
-   ABOUT – Content
-============================== */
+/* about content*/
 
 .aboutContent p {
     font-size: 1rem;
@@ -209,9 +198,7 @@
     color: var(--title);
 }
 
-/* ==============================
-   ABOUT – Mobile Centering
-============================== */
+/* about mobile centering*/
 @media (min-width: 768px) and (max-width: 800px) {
     .secondaryText {
         display: none;
@@ -223,7 +210,7 @@
     .aboutGrid {
         display: flex;
         flex-direction: column;
-        gap: 2rem;
+        gap: 3rem;
         padding: 2rem 1rem;
         align-items: center;
     }
@@ -232,6 +219,7 @@
         width: 100%;
         display: flex;
         justify-content: center;
+        align-items: center;
     }
 
     .aboutCard {
@@ -250,16 +238,9 @@
         margin-right: auto;
     }
 
-    .aboutHeading {
-        flex-direction: column;
-        gap: 0.5rem;
-    }
-
-    .headingLine {
-        max-width: 80px;
-    }
 
     .aboutPhilosophy {
+        display: none;
         flex-direction: column;
         align-items: center;
         border-left: none;
@@ -281,10 +262,7 @@
     }
 }
 
-
-/* ==============================
-   ABOUT – Subtle Motion
-============================== */
+/* about subtle motion*/
 
 .aboutCard:hover {
     transform: translateY(-4px);
@@ -294,4 +272,20 @@
 .statBadge:hover {
     transform: translateY(-3px) scale(1.03);
     transition: transform 0.3s ease;
+}
+
+/* heading line visibility rule*/
+
+/* Hide below 400px */
+@media (max-width: 400px) {
+    .headingLine {
+        display: none;
+    }
+}
+
+/* Show from 400px and above */
+@media (min-width: 400px) {
+    .headingLine {
+        display: block;
+    }
 }
