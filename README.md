@@ -6,7 +6,6 @@ This repository contains a static personal portfolio website built with HTML, CS
 - [Overview](#overview)
 - [Features](#features)
 - [About Me](#about-me)
-- [File Structure](#file-structure)
 - [Getting Started](#getting-started)
 - [Customization](#customization)
 - [Accessibility](#accessibility)
@@ -30,16 +29,6 @@ A small, easy-to-edit portfolio intended to demonstrate front-end skills and hos
 ## About Me
 
 Short, friendly introduction: a front-end developer focused on accessible, responsive, and performance-minded websites. Comfortable turning designs into maintainable code and continually learning modern front-end practices.
-
-## File Structure
-
-- `index.html` — homepage
-- `info.txt` — plain-text About Me content used for drafting
-- `README.md` — this file
-- `steps.html`, `assests/` — other content and assets
-- `projectDetails/` — project pages and styles
-- `scripts/` — JavaScript files: `education.js`, `navbar.js`, `project.js`, `skills.js`
-- `styles/` — CSS files for each page and `style.css`
 
 ## Getting Started
 
