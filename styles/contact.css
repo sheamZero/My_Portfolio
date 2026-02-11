@@ -164,3 +164,41 @@
     padding: 1rem;
   }
 }
+
+
+
+/* --------- toast -------- */
+.toast {
+  position: fixed;
+  top: 100px;
+  right: 20px;
+  padding: 12px 20px;
+  border-radius: 6px;
+  color: #fff;
+  font-weight: 500;
+  opacity: 0.95;
+  z-index: 999;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  transform: translateY(100px);
+  animation: slideIn 0.5s forwards, fadeOut 0.5s 2.5s forwards;
+}
+
+.toast.success {
+  background-color: #2a7f2d;
+}
+
+.toast.error {
+  background-color: #d32f2f;
+}
+
+@keyframes slideIn {
+  to {
+    transform: translateY(0);
+  }
+}
+
+@keyframes fadeOut {
+  to {
+    opacity: 0;
+  }
+}
